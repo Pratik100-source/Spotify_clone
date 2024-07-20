@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Splash from './src/components/splash';
 import Home from "./src/components/home";
 import { useEffect, useState } from 'react';
+import Signup from "./src/components/signup";
 
 
 
@@ -25,9 +26,9 @@ export default function App() {
     
       <View style={styles.container}>
 
-       {showSplitScreen?<Splash/>:<Home/>}
+       {/* {showSplitScreen?<Splash/>:<Home/>} */}
 
-      {/* <Home/> */}
+           <Signup/>
     </View>
     
   );
