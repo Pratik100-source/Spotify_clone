@@ -17,13 +17,13 @@ const Home = () =>{
        <View style={styles.container}>
        <View style={styles.header}>
         <Text style={styles.header_text}>Good morning</Text>
-{/* 
+
         <View style={styles.header_icon}>
        <FontAwesomeIcon icon={faBell} size={30} color="white"></FontAwesomeIcon>
        <FontAwesomeIcon icon={faClock} size={30} color="white"></FontAwesomeIcon>
        <FontAwesomeIcon icon={faGear} size={30} color="white"></FontAwesomeIcon>
        </View>
-        */}
+       
        </View>
        
 
